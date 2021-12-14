@@ -1,0 +1,202 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local fakehatch = Instance.new("TextButton")
+local hugecat = Instance.new("TextButton")
+local fnfauto = Instance.new("TextButton")
+local infyield = Instance.new("TextButton")
+local prisonlife = Instance.new("TextButton")
+local mm2 = Instance.new("TextButton")
+local toh = Instance.new("TextButton")
+local bgs = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local Beeswarm = Instance.new("TextButton")
+local clone2 = Instance.new("TextButton")
+local d3xplorer = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(207, 255, 178)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.0314632617, 0, 0.205270454, 0)
+Frame.Size = UDim2.new(0, 776, 0, 477)
+Frame.Active = true
+Frame Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 722, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Huey's Main Scripts!"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 50.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.359315217, 0, 0.559584737, 0)
+TextLabel_2.Size = UDim2.new(0, 218, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Scripts arent made by me, credits to owners."
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+fakehatch.Name = "fakehatch"
+fakehatch.Parent = Frame
+fakehatch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fakehatch.Position = UDim2.new(0.27706185, 0, 0.141472861, 0)
+fakehatch.Size = UDim2.new(0, 178, 0, 50)
+fakehatch.Font = Enum.Font.SourceSans
+fakehatch.Text = "Fake Hatcher Pet sim x"
+fakehatch.TextColor3 = Color3.fromRGB(0, 0, 0)
+fakehatch.TextSize = 14.000
+fakehatch.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/hackerDashDash/PetSimulatorX/main/PetSimulatorXV2.lua",true))()
+end)
+
+hugecat.Name = "hugecat"
+hugecat.Parent = Frame
+hugecat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hugecat.Position = UDim2.new(0.0399484523, 0, 0.139534891, 0)
+hugecat.Size = UDim2.new(0, 168, 0, 51)
+hugecat.Font = Enum.Font.SourceSans
+hugecat.Text = "Huge Cat Script"
+hugecat.TextColor3 = Color3.fromRGB(0, 0, 0)
+hugecat.TextSize = 14.000
+hugecat.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BgsHacker/PetSimulatorXScriptv.2/1e5cd6ac7ede9f7e72391cd1b3ceb9f097ee0fd0/PetSimulatorXScriptv.2BgsHacker",true))()
+end)
+
+fnfauto.Name = "fnfauto"
+fnfauto.Parent = Frame
+fnfauto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fnfauto.Position = UDim2.new(0.0399484523, 0, 0.261627913, 0)
+fnfauto.Size = UDim2.new(0, 168, 0, 51)
+fnfauto.Font = Enum.Font.SourceSans
+fnfauto.Text = "funky friday autoplayer"
+fnfauto.TextColor3 = Color3.fromRGB(0, 0, 0)
+fnfauto.TextSize = 14.000
+fnfauto.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+infyield.Name = "infyield"
+infyield.Parent = Frame
+infyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infyield.Position = UDim2.new(0.760309279, 0, 0.139534891, 0)
+infyield.Size = UDim2.new(0, 168, 0, 51)
+infyield.Font = Enum.Font.SourceSans
+infyield.Text = "infinite yield"
+infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infyield.TextSize = 14.000
+infyield.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
+end)
+
+prisonlife.Name = "prisonlife"
+prisonlife.Parent = Frame
+prisonlife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+prisonlife.Position = UDim2.new(0.529639184, 0, 0.141472876, 0)
+prisonlife.Size = UDim2.new(0, 168, 0, 51)
+prisonlife.Font = Enum.Font.SourceSans
+prisonlife.Text = "prison life script"
+prisonlife.TextColor3 = Color3.fromRGB(0, 0, 0)
+prisonlife.TextSize = 14.000
+prisonlife.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
+end)
+
+mm2.Name = "mm2"
+mm2.Parent = Frame
+mm2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mm2.Position = UDim2.new(0.27706185, 0, 0.261627913, 0)
+mm2.Size = UDim2.new(0, 168, 0, 51)
+mm2.Font = Enum.Font.SourceSans
+mm2.Text = "mm2 script"
+mm2.TextColor3 = Color3.fromRGB(0, 0, 0)
+mm2.TextSize = 14.000
+mm2.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
+end)
+
+toh.Name = "toh"
+toh.Parent = Frame
+toh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+toh.Position = UDim2.new(0.760309279, 0, 0.387596905, 0)
+toh.Size = UDim2.new(0, 168, 0, 51)
+toh.Font = Enum.Font.SourceSans
+toh.Text = "tower of pie sript"
+toh.TextColor3 = Color3.fromRGB(0, 0, 0)
+toh.TextSize = 14.000
+toh.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))(
+end)
+
+bgs.Name = "bgs"
+bgs.Parent = Frame
+bgs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bgs.Position = UDim2.new(0.529639184, 0, 0.387596905, 0)
+bgs.Size = UDim2.new(0, 168, 0, 51)
+bgs.Font = Enum.Font.SourceSans
+bgs.Text = "bgs grind script"
+bgs.TextColor3 = Color3.fromRGB(0, 0, 0)
+bgs.TextSize = 14.000
+bgs.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet(("https://textbin.net/raw/t4jqgjsvfi"),true))()
+end)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.27706185, 0, 0.387596905, 0)
+TextButton.Size = UDim2.new(0, 168, 0, 51)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+Beeswarm.Name = "Beeswarm"
+Beeswarm.Parent = Frame
+Beeswarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Beeswarm.Position = UDim2.new(0.0399484523, 0, 0.387596905, 0)
+Beeswarm.Size = UDim2.new(0, 168, 0, 51)
+Beeswarm.Font = Enum.Font.SourceSans
+Beeswarm.Text = "bee swarm sim script"
+Beeswarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+Beeswarm.TextSize = 14.000
+Beeswarm.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
+end)
+
+clone2.Name = "clone2"
+clone2.Parent = Frame
+clone2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+clone2.Position = UDim2.new(0.760309279, 0, 0.261627913, 0)
+clone2.Size = UDim2.new(0, 168, 0, 51)
+clone2.Font = Enum.Font.SourceSans
+clone2.Text = "	clone tycoon"
+clone2.TextColor3 = Color3.fromRGB(0, 0, 0)
+clone2.TextSize = 14.000
+clone2.MouseButton1Click:connect(function()
+	task.spawn(loadstring(game:HttpGet("https://paste.ee/r/N0fo7/0")),[[also if it doesn't load look in the console for some warns / errors]])
+end)
+
+d3xplorer.Name = "d3xplorer"
+d3xplorer.Parent = Frame
+d3xplorer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d3xplorer.Position = UDim2.new(0.529639184, 0, 0.261627913, 0)
+d3xplorer.Size = UDim2.new(0, 168, 0, 51)
+d3xplorer.Font = Enum.Font.SourceSans
+d3xplorer.Text = "dex explorer"
+d3xplorer.TextColor3 = Color3.fromRGB(0, 0, 0)
+d3xplorer.TextSize = 14.000
+d3xplorer.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
+end)
